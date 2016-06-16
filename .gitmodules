@@ -1,0 +1,3 @@
+[submodule "app/src/main/assets/coffeescript-repl"]
+	path = app/src/main/assets/repl
+	url = https://github.com/larryng/coffeescript-repl
