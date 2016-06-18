@@ -26,7 +26,7 @@ public class WhirlMain extends GVRMain {
         mWebSceneObject = new GVRViewSceneObject(gvrContext,
                 mActivity.getWebView(), plane.getRenderData().getMesh());
 
-        gvrContext.getMainScene().addSceneObject(mWebSceneObject);
+        gvrContext.getNextMainScene().addSceneObject(mWebSceneObject);
 
         mWebSceneObject.getTransform().setPosition(0.0f, 0.0f, -2.5f);
 
